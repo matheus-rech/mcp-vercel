@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    // Tests may contain unused variables from quick mocks or placeholder code; disable checks to avoid noise
     "noUnusedLocals": false,
     "noUnusedParameters": false
   }
